@@ -399,6 +399,8 @@ public class WifiConfigStore extends IpConfigStore {
 
     public static final int maxNumScanCacheEntries = 128;
 
+    private int mConfiguredBand = 0;
+
     /**
      * Regex pattern for extracting a connect choice.
      * Matches a strings like the following:
